@@ -6,9 +6,9 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{8158C33C-41F8-4616-8B66-F41D9E516EB0}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <StartupObject>WindowsApplication7.My.MyApplication</StartupObject>
-    <RootNamespace>WindowsApplication7</RootNamespace>
-    <AssemblyName>WindowsApplication7</AssemblyName>
+    <StartupObject>BingoRannum.My.MyApplication</StartupObject>
+    <RootNamespace>BingoRannum</RootNamespace>
+    <AssemblyName>BingoRannum</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>WindowsForms</MyType>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
@@ -21,7 +21,7 @@
     <DefineDebug>true</DefineDebug>
     <DefineTrace>true</DefineTrace>
     <OutputPath>bin\Debug\</OutputPath>
-    <DocumentationFile>WindowsApplication7.xml</DocumentationFile>
+    <DocumentationFile>BingoRannum.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -31,7 +31,7 @@
     <DefineTrace>true</DefineTrace>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
-    <DocumentationFile>WindowsApplication7.xml</DocumentationFile>
+    <DocumentationFile>BingoRannum.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup>
@@ -121,6 +121,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\uiTestRanNum.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FileTran.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

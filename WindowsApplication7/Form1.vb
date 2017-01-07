@@ -41,7 +41,7 @@ Start: 'loop for found number in arrnum
         ' strTest += curNum.ToString + vbNewLine
 
         'show num
-        Label2.Text = "i = " + i.ToString
+        Label2.Text = "รอบที่ = " + i.ToString
         Label1.Text = curNum
 
         ' End While
